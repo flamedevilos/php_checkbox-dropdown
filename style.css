@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  background-color: #f4f4e9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 10px;
+  padding: 20px;
+}
+
+header h2 {
+  text-align: center;
+  border-bottom: 1px solid blue;
+  padding: 20px;
+  color: #0d72ff;
+}
+
+main h3 {
+  color: crimson;
+  font-weight: bolder;
+}
+
+form span {
+  color: #5353da;
+  font-weight: bold;
+}
+
+form p {
+  color: darkblue;
+  font-weight: bold;
+}
+
+form .multi-choise {
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 10px;
+}
+
+form ol {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: #000;
+  font-size: 0.9em;
+}
+
+form label {
+  color: #5353ee;
+  font-weight: bold;
+}
+
+button {
+  width: 140px;
+  height: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: #0d72ff;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: aliceblue;
+  border: 1px solid #0d72ff;
+  color: #0d72ff;
+}
+
+@media (max-width: 730px) {
+  form ol {
+    flex-direction: column;
+    gap: 0;
+  }
+}
